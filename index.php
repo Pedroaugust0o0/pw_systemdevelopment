@@ -1,6 +1,7 @@
 <html>
+<title>Sorveteria</title>
 <head>
-<title></title>
+</head>
 <body>
 </body>
 </html>
