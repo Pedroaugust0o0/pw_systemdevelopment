@@ -110,7 +110,7 @@ body {
     height: 100%;
     display: flex;
     align-items: left;
-    background-color:  #fc5d9d;
+    background-color:  #9900ff;
 }
 
 .titulo{
@@ -150,7 +150,7 @@ font-family: Times, "Times New Roman", Georgia, serif;
 
 .campo {
     outline: 0;
-    background: linear-gradient(to left, #e67ea3,  #fefefe);
+    background: linear-gradient(to left, #8c00ff,  #8000ff);
     width: 110%;
     height: 30px;
     border-radius: 50px;
@@ -164,7 +164,7 @@ font-family: Times, "Times New Roman", Georgia, serif;
 
 .enviar{
     outline: 0;
-    background: linear-gradient(to right, #2253a3,  #71c7d4);
+    background: linear-gradient(to right, #7300ff,  #9900ff);
     width: 110%;
     height: 30px;
     margin: 20px;
