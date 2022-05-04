@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
 <title>Sorveteria</title>
@@ -15,8 +16,6 @@
 <input name="rg" class="campo" placeholder="Rg">
 <br><br>
 <input class="enviar" type="submit" value="Enviar">
-
-
 
     </form> 
 </body>
