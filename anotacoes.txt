@@ -1,0 +1,114 @@
+<?php
+
+
+include_once "
+
+$novo = new al
+
+$mat = "";
+
+$novo-> setMat
+
+  echo ($novo-
+
+ 
+
+    $nom = "";
+
+$novo-> setNom
+
+  echo ($novo-
+
+
+$registro = 12
+
+$novo-> setRg(
+
+ ($novo->getRg
+$dpt = "";
+
+$novo-> setDep
+
+ echo ($novo->
+
+
+
+   ?> 
+
+
+  </body>
+</html>
+
+<html lang="en
+<head>
+    <meta char
+    <meta http
+    <meta name
+    <legend>Fo
+    <link rel=
+</head>
+
+<body>
+
+
+
+    <form clas
+        
+        <br><b
+        <title
+        <br><b
+        <input
+<br><br>
+<input name="m
+<br><br>
+<input name="c
+<br><br>
+<input name="r
+<br><br>
+<input class="
+
+
+
+    </form> 
+
+    aluno.class.php";
+uno("123","Por","Gato","Marketing");
+
+ricula($mat);
+>getMatricula());
+
+
+e($nom);
+>getNome());
+121212121;
+$registro);
+());
+
+artamento($dpt);
+getDepartamento());
+
+
+
+">
+
+set="UTF-8">
+-equiv="X-UA-Compatible" content="IE=edge"
+="viewport" content="width=device-width, i
+rmulário</legend>
+"stylesheet" href="style.css" type="text/c
+
+
+s="formulario" method="post" action="pages
+
+r><br><br><br>
+ class="titulo">Preencha Com Os Dados Do A
+r>
+ name="nome" class="campo" placeholder="No
+
+atricula" class="campo" placeholder="Matrí
+
+pf" class="campo" placeholder="CPF">
+
+g" class="campo" placeholder="Rg">
+
+enviar" type="submit" value="Enviar">
