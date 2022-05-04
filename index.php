@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>PHP Test</title>
+<title>Sorveteria</title>
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="index.html">
 </head>
