@@ -54,42 +54,6 @@ $novo-> setDepartamento($dpt);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <legend>Formulário</legend>
     <link rel="stylesheet" href="style.css" type="text/css">
-
-  <style>
-* {
-    padding: 0;
-    margin: 0;
-}
-
-body{
-    background: linear-gradient(#4facfe  #00f2fe);
-    width: 100%;
-    height: 100%;
-    display: flex;
-}
-
-.section{
-    background-color: linear-gradient(#4facfe,  #00f2fe);
-    opacity: 0.7;
-    align-items: center;
-    justify-content: center;
-    vertical-align: middle; 
-}
-
-.form{
-    padding: 0;
-    margin: 0;
-}
-
-.input{
-    outline: 0;
-    background-color: linear-gradient(#4fa678, #00f2fe);
-    width: 90%;
-    height: 15px;
-    border-radius: 50px;
-    padding-left: 15px;
-}
-</style>
 </head>
 
 <body>
