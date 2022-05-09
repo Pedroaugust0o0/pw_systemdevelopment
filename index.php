@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Venha e prove todos os nossos sabores"> 
     <title>Sorveteria</title>
-    <link rel="stylesheet" type="css" href="css/style.css"> 
+    
 </head>
 <body>
     <header>
      <h1> Venha conheçer nosso estabelecimento e nossos sabores!!</h1>
-    <img src="logo.src.png">
+    <img src="logo.src">
     </header>
 
-    <main>
+    <main class="menu-principal">
    <h2>Confira nossos sabores abaixo</h2> 
    <p>Morango</p>
    <p>chocolate</p>
@@ -24,6 +24,24 @@
    <p>Menta</p>
    <p>Creme com passas</p>
    <p>Maracunjá</p>
+   <p>Franboesa</p>
+   <p>Amora</p>
+   <p>Mirtilo</p>
+   <p>Cereja</p>
+   <p>Abacaxi</p>
+   <p>Açai</p>
+   <p>Caramelo</p>
+   <p>Pavê</p>
+   <p>Nata goiaba</p>
+   <p>Caja</p>
+   <p>Brigadeiro</p>
+   <p>Bombom</p>
+   <p>Flocos</p>
+   <p></p>
+   <p></p>
+   <p></p>
+   <p></p>
+   <p></p>
    <p></p>
     </main>
 
