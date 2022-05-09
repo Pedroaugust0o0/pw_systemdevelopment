@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,11 @@
     <title>Sorveteria</title>
     <link rel="stylesheet" type="text/css" href="css/estyle.css">
 </head>
+
 <body>
     <header class="cabeçalho">
-            <h1 class="titulo1"> Venha conheçer nosso estabelecimento e nossos sabores!!</h1>
-            <img class="logo" src="./img/logo.src.png" alt="Logo da sorveteria">
+        <h1 class="titulo1"> Venha conheçer nosso estabelecimento e nossos sabores!!</h1>
+        <img class="logo" src="./img/logo.src.png" alt="Logo da sorveteria">
     </header>
     <div class="container">
         <nav class="menu-principal">
@@ -31,4 +33,5 @@
         <a>Facebook</a>
     </footer>
 </body>
+
 </html>
