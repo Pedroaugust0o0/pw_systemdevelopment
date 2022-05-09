@@ -14,7 +14,7 @@
     </header>
     <div class="container">
         <nav class="menu-principal">
-            <h2>Confira nossos sabores abaixo</h2>
+            <h2>Venha e aproveite tudo ao máximo</h2>
             <ul>
                 <li href>Sabores</li>
                 <li href>Cadastre-se</li>
