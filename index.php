@@ -9,7 +9,7 @@
 <body>
     <header class="cabeçalho">
      <h1> Venha conheçer nosso estabelecimento e nossos sabores!!</h1>
-    <img class="logo"src="logo.src">
+    <img class="logo" src="logo.src" alt="Logo da sorveteria" >
     </header>
 
 <main class="menu-principal">
