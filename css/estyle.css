@@ -9,6 +9,7 @@ body{
 }
 header h1{
     text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif
     
 }
 
@@ -42,7 +43,9 @@ header h1{
     height: 100px;
     background-image: none;
     align-items: flex-end;
+    right: auto;
 }
+
 
 section{
     height: 70%;

@@ -16,9 +16,9 @@
         <nav class="menu-principal">
             <h2>Venha e aproveite tudo ao máximo</h2>
             <ul>
-                <li href>Sabores</li>
-                <li href>Cadastre-se</li>
-                <li href>Login</li>
+                <li link>Sabores</li>
+                <li link>Cadastre-se</li>
+                <li link>Login</li>
             </ul>
         </nav>
     </div>
