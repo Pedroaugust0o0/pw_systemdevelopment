@@ -42,9 +42,6 @@ header h1 {
 .logo {
     width: 100px;
     height: 100px;
-    background-image: none;
-    align-items: flex-end;
-    right: auto;
 }
 
 
