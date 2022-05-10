@@ -7,6 +7,8 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>Faça seu cadastro aqui!!
+    </h1>
     <?php
     
     

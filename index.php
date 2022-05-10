@@ -7,18 +7,19 @@
     <meta name="description" content="Venha e prove todos os nossos sabores">
     <title>Sorveteria</title>
     <link rel="stylesheet" type="text/css" href="css/estyle.css">
+    <link rel="stylesheet" type="text/page" href="pages/cadcliente.php">
 </head>
 
 <body>
     <header class="cabeçalho">
-        <h1 class="titulo1"> Venha conheçer nosso estabelecimento e nossos sabores!!</h1>
-        <img class="logoms" src="./img/download-removebg-preview.png" alt="Logo da sorveteria">
+        <h1 class="titulo1"> Venha conheçer o nosso estabelecimento!</h1>
+        <img class="logo-milkshake" src="./img/download-removebg-preview.png" alt="Logo da sorveteria">
     </header>
     <div class="container">
         <nav class="menu-principal">
             <h2>Venha e aproveite tudo ao máximo</h2>
             <ul>
-                <li link>Sabores</li>
+                <li link rel="stylesheet" type="text/page" href="pages/cadclient.php">Sabores</li>
                 <li link>Cadastre-se</li>
                 <li link>Login</li>
             </ul>
