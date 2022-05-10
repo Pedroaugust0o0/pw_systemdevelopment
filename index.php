@@ -8,6 +8,8 @@
     <title>Sorveteria</title>
     <link rel="stylesheet" type="text/css" href="css/estyle.css">
     <link rel="stylesheet" type="text/page" href="pages/cadcliente.php">
+    <link rel="stylesheet" type="text/page" href="pages/login.php">
+    <link rel="stylesheet" type="text/page" href="pages/sabores.php">
 </head>
 
 <body>
