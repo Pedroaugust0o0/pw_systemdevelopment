@@ -32,7 +32,7 @@
     </section>
     <footer>
         <p>Siganos nas redes sociais e fique por dentro de tudo</p>
-        <a>Instagram</a>
+        <br><a>Instagram</a></br>
         <a>Facebook</a>
     </footer>
 </body>
