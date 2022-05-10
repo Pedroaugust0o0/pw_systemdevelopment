@@ -11,7 +11,8 @@ body {
 
 header h1 {
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #2253a3;
 }
 
 .container {
@@ -28,7 +29,7 @@ header h1 {
 .menu-principal ul li {
     list-style: none;
     flex-grow: 3;
-    background-color: #e39959;
+    background-color: #f9cc85;
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
@@ -50,7 +51,8 @@ section {
     height: 70%;
 }
 
-footer {
+.rodape
+{
     display: flex;
     align-items: center;
     justify-content: center;

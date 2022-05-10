@@ -30,7 +30,7 @@
     <section>
 
     </section>
-    <footer>
+    <footer class="rodape">
         <p>Siganos nas redes sociais e fique por dentro de tudo</p>
         <br><a>Instagram</a></br>
         <a>Facebook</a>
