@@ -26,11 +26,11 @@
     </header>
     <div class="container">
         <nav class="menu-principal">
-            <h2>Venha e aproveite tudo ao máximo</h2>
+            <h2>Coma e gaste dinheiro!!!!!!!!!!!!</h2>
             <ul>
-                <li link rel="stylesheet" type="text/page" href="pages/cadclient.php">Sabores</li>
-                <li link>Cadastre-se</li>
-                <li link>Login</li>
+                <a href="pages/cad_cliente.php">A</a>
+                <a href="pages/cad_cliente.php">A</a>
+                <a href="pages/cad_cliente.php">A</a>
             </ul>
         </nav>
     </div>
@@ -38,10 +38,9 @@
 
     </section>
     <footer class="rodape">
-        <p>Siganos nas redes sociais e fique por dentro de tudo</p>
+        <p>Nos acompanhe nas nossas redes sociais e fique por dentro de tudo!</p><br></br>
         <br><a>Instagram</a></br>
-        <a>Facebook</a>
+        <br><a>Facebook</a></br>
     </footer>
 </body>
-
 </html>
