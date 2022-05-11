@@ -9,7 +9,6 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-<body>
     <header class="cabecalho">
         <h1 class="titulo1">Venha E conheça o nosso estabelecimento!</h1>
         <div>
