@@ -5,25 +5,25 @@
 }
 
 body {
-    background: linear-gradient(#f9c596, #fc5d9d);
+    background: linear-gradient(#FFFF00, #FFFF00);
     height: 110vh;
 }
 
 header h1 {
-    text-align: center;
+    text-align: left;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(219,112,147);
 }
 
 .container, header {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 
 .menu-principal ul {
     display: flex;
-    text-align: center;
+    text-align: left;
 }
 
 header{
@@ -33,11 +33,11 @@ header{
 .menu-principal ul a {
     list-style: none;
     flex-grow: 3;
-    background-color: #e66daf;
+    background-color: #b94887;
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 4px, 5px, 4px rgba(0, 0, 25);
+    box-shadow: 4px, 5px, 4px rgb(42, 42, 46);
 }
 
 .menu-principal ul a {
@@ -47,7 +47,7 @@ header{
 .logo-milkshake{
     width: 100px;
     height: 100px;
-    align-items:center;
+    align-items:flex-end;
 
 }
 
