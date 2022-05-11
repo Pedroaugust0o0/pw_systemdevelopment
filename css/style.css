@@ -1,69 +1,57 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'Open Sans', sans-serif;
-}
 
-body {
-    background: linear-gradient(#FFFF00, #FFFF00);
-    height: 110vh;
-}
 
-header h1 {
-    text-align: left;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(219,112,147);
-}
 
-.container, header {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
 
-.menu-principal ul {
-    display: flex;
-    text-align: left;
-}
 
-header{
-    margin-top: 20px;
-}
 
-.menu-principal ul a {
-    list-style: none;
-    flex-grow: 3;
-    background-color: #b94887;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 4px, 5px, 4px rgb(42, 42, 46);
-}
 
-.menu-principal ul a {
-    text-decoration: none;
-}
 
-.logo-milkshake{
-    width: 100px;
-    height: 100px;
-    align-items:flex-end;
 
-}
 
-section {
-    height: 70%;
-}
 
-.rodape
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-grow: 3;
-    margin: 0%;
-}
-.menu-principal{
-    color: rgb(255,105,180);
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
