@@ -5,17 +5,17 @@
 }
 
 body {
-    background: linear-gradient(#ffd9f4, #bd3a91);
+    background: linear-gradient(#f9c596, #fc5d9d);
     height: 110vh;
 }
 
 header h1 {
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #ffffff;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(219,112,147);
 }
 
-.container {
+.container, header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,7 +26,11 @@ header h1 {
     text-align: center;
 }
 
-.menu-principal ul li {
+header{
+    margin-top: 20px;
+}
+
+.menu-principal ul a {
     list-style: none;
     flex-grow: 3;
     background-color: #e66daf;
@@ -36,16 +40,16 @@ header h1 {
     box-shadow: 4px, 5px, 4px rgba(0, 0, 25);
 }
 
-.menu-principal ul li a {
+.menu-principal ul a {
     text-decoration: none;
 }
 
 .logo-milkshake{
     width: 100px;
     height: 100px;
+    align-items:center;
 
 }
-
 
 section {
     height: 70%;
@@ -61,5 +65,5 @@ section {
     margin: 0%;
 }
 .menu-principal{
-    color: rgb(255, 255, 255);
+    color: rgb(255,105,180);
 }

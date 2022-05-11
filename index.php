@@ -7,30 +7,23 @@
     <meta name="description" content="Venha e prove todos os nossos sabores">
     <title>Sorveteria</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/page" href="pages/cadcliente.php">
-    <link rel="stylesheet" type="text/page" href="pages/login.php">
-    <link rel="stylesheet" type="text/page" href="pages/sabores.php">
 </head>
 <body>
-<header>
-  <h1>Nossos Sabores</h1>
-</header>
-
-<nav>
-</nav>
-
 <body>
-    <header class="cabeçalho">
-        <h1 class="titulo1"> Venha conhecer o nosso estabelecimento!</h1>
-        <img class="logo-milkshake" src="./img/download-removebg-preview.png" alt="Logo da sorveteria">
+    <header class="cabecalho">
+        <h1 class="titulo1">Venha E conheça o nosso estabelecimento!</h1>
+        <div>
+        <img class="logo-milkshake" src="./img/download-removebg-preview.
+png" alt="Logo da sorveteria">
+        </div>
     </header>
     <div class="container">
         <nav class="menu-principal">
-            <h2>Coma e gaste dinheiro!!!!!!!!!!!!</h2>
-            <ul>
-                <a href="pages/cad_cliente.php">A</a>
-                <a href="pages/cad_cliente.php">A</a>
-                <a href="pages/cad_cliente.php">A</a>
+            <h2>Aproveite ao máximo, faça seu cadastro!</h2>
+            <ul class="tabela">
+                <a href="pages/cad_cliente.php">Cadastre-se</a>
+                <a href="pages/cadproduto.php">Sabores</a>
+                <a href="pages/login.php">login</a>
             </ul>
         </nav>
     </div>
