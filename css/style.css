@@ -13,13 +13,16 @@ body{
 }
 
 .menu_principal{
+    display: flex;
 
 }
 
 .conteudo_prinpial{
+    display: flex;
 
 }
 
 .botão{
+    color: aqua;
 
 }

@@ -7,7 +7,6 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-
 <header class="cabeçalho"> 
     <div>
  <nav class="menu_principal">
@@ -18,14 +17,12 @@
     </div>
  <h1>Gelateria</h1>
 </header>
-
 <main class="conteudo_prinpial">
 <h1>sorvetes<h1>
 <h1>Artesanais<h1>
 <button class ="botão">Menu</button>
 <img src="sorvet.rsc-removebg-preview.png" alt="sorvete">
 </main>
-
 </body>
 </html>
 
