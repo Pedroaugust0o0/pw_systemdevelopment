@@ -7,6 +7,6 @@
     <title>login</title>
 </head>
 <body>
-    <h1>Já tem uma conta faça seu login</h1>
+    <h1>login</h1>
 </body>
 </html>
