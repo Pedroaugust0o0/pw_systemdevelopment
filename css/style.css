@@ -8,7 +8,7 @@
 body{
     background: linear-gradient(to right, rgb(255, 132, 218), rgb(255, 232, 158))
 }
-.cabeçalho{
+.cabecalho{
     border-top: 0.4px solid #ff81f5;
 }
 
@@ -26,16 +26,20 @@ body{
 }
 
 .menu_principal a{
- background: #FF69B4;
- color: #FFF;
  text-decoration: none;
  font-weight: bold;
- border-radius: 5px;
+ border-radius: 4px;
  border-style:hidden;
+ font-size: 18px;
 
 }
+a:hover {
+	/* background:rgb(0, 0, 0); */
+	color:rgb(255, 254, 254);
+    font-size: 20px;
+	}
 
-.título_empresa{
+.titulo_empresa{
     font-size: 50px;
     font-family: 'Cookie', cursive;
     display: flex;
@@ -53,4 +57,28 @@ body{
 .sorvete{
     height: 600px;
     box-shadow: rgb( rgb(21, 23, 21),);
+}
+
+.rodape{
+    background-color: black;
+    color: #fefefefe;
+}
+.rodape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.rodape div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.rodape #div1{
+    align-items: stretch;
+}
+.rodape div img{
+    width: 50px;
+    height: 100px;
 }

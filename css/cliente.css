@@ -4,11 +4,13 @@
 }
 
 h1{
-    color: gold;
+    display: flex;
+    text-align: center;
 }
 
 fieldset{
     display: flex;
     width: 10%;
     justify-content: flex-start;
+    color: black;
 }
