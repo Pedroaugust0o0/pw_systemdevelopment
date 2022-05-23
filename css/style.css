@@ -6,9 +6,8 @@
 }
 
 body{
-    background-image: linear-gradient(#f9c596 #fc5d9d);
+    background: linear-gradient(to right, rgb(255, 132, 218), rgb(255, 232, 158))
 }
-
 .cabeçalho{
     border-top: 0.4px solid #ff81f5;
 }
@@ -31,7 +30,7 @@ body{
  color: #FFF;
  text-decoration: none;
  font-weight: bold;
- border-radius: px;
+ border-radius: 5px;
  border-style:hidden;
 
 }
@@ -48,14 +47,10 @@ body{
 .conteudo_prinpial{
     text-align: center;
     font-family: 'Abel', sans-serif;
+    font-size: 48px;
 }
 
 .sorvete{
-    height: 500px;
-    align-items: center;
-
-}
-
-.botão{
-    color: rebeccapurple;
+    height: 600px;
+    box-shadow: rgb( rgb(21, 23, 21),);
 }

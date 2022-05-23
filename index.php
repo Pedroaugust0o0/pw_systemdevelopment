@@ -20,12 +20,13 @@
 <main class="conteudo_prinpial">
  <h2>sorvetes<h2>
  <h3>Artesanais<h3>
- <button class ="botão">Menu</button>
  <img class="sorvete" src="img/sorvet.
 rsc-removebg-preview.png" 
 alt="sorvete">
 </main>
-  
+<footer>
+
+</footer>
 </body>
 </html>
 
