@@ -1,0 +1,9 @@
+*{
+    border: 0px;
+    margin: 0%;
+}
+
+fieldset{
+    display: block;
+    width: 10%;
+}

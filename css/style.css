@@ -27,9 +27,12 @@ body{
 }
 
 .título_empresa{
-    text-align: center;
-    font-size: 40px;
+    
+    font-size: 50px;
     font-family: 'Cookie', cursive;
+    display: flex;
+    justify-content: center;
+    text-align:flex start;
 
 }
 
