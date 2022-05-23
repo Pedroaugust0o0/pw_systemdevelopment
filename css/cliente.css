@@ -1,0 +1,14 @@
+*{
+    border: 0px;
+    margin: 0%;
+}
+
+h1{
+    color: gold;
+}
+
+fieldset{
+    display: flex;
+    width: 10%;
+    justify-content: flex-start;
+}

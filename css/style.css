@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Cookie&display=swap');
+*{
+    margin: 0%;
+    border: 0ch;
+}
+
+body{
+    background-image: linear-gradient(#f9c596 #fc5d9d);
+}
+
+.cabeçalho{
+    border-top: 0.4px solid #ff81f5;
+}
+
+.menu_principal{
+    display: flex;
+    flex-direction:row;
+    align-items:flex-start;
+    justify-content:flex-start;
+    padding: 24px;
+    gap: 24px;
+    font-family: 'Abel', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
+
+.menu_principal a{
+ background: #FF69B4;
+ color: #FFF;
+ text-decoration: none;
+ font-weight: bold;
+ border-radius: px;
+ border-style:hidden;
+
+}
+
+.título_empresa{
+    font-size: 50px;
+    font-family: 'Cookie', cursive;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.conteudo_prinpial{
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+}
+
+.sorvete{
+    height: 500px;
+    align-items: center;
+
+}
+
+.botão{
+    color: rebeccapurple;
+}
