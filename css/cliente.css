@@ -3,7 +3,12 @@
     margin: 0%;
 }
 
+h1{
+    color: gold;
+}
+
 fieldset{
-    display: block;
+    display: flex;
     width: 10%;
+    justify-content: flex-start;
 }

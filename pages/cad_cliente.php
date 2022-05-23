@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/cliente.css">
 </head>
 <body>
-    <h1>login</h1>
+    <h1>Cadastro</h1>
 <form action="">
 <fieldset>
     <legend><b>Fórmulário de cadastro</b></legend>

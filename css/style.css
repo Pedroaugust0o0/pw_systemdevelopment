@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #F9DB79;
+    background-image: linear-gradient(#f9c596 #fc5d9d);
 }
 
 .cabeçalho{
@@ -26,13 +26,22 @@ body{
     color: black;
 }
 
+.menu_principal a{
+ background: #FF69B4;
+ color: #FFF;
+ text-decoration: none;
+ font-weight: bold;
+ border-radius: px;
+ border-style:hidden;
+
+}
+
 .título_empresa{
-    
     font-size: 50px;
     font-family: 'Cookie', cursive;
     display: flex;
     justify-content: center;
-    text-align:flex start;
+    
 
 }
 
