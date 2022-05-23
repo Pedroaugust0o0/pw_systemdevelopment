@@ -1,16 +1,18 @@
 *{
     border: 0ch;
-    margin: 0%;
+    margin: 0px;
 }
 
-h1{
-    display: flex;
-    text-align: center;
+#area{
+  position:relative;
+  left:37%;
+  top:10em;
+  width:320px;
+  height:270px;
 }
 
-fieldset{
-    display: flex;
-    width: 10%;
-    justify-content: flex-start;
-    color: black;
+#area #formulario
+{
+  position:absolute;
+  display:block;
 }

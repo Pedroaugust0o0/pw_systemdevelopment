@@ -8,12 +8,13 @@
 </head>
 <body>
     <h1>Cadastro</h1>
-<form action="">
+    <div id="area">
+<form class ="formulario"action="">
 <fieldset>
     <legend><b>Fórmulário de cadastro</b></legend>
     <br>
     <div class="inputBox">
-        <input type="text" name="nome" id="nome" required>
+        <input type="text" name="nome" id="nome" class="campo_nome"required>
         <label for="nome" class="labelInput">Nome completo</label>
                     <br></br>
         <input type="email" name="email" id="email" required>
@@ -40,5 +41,6 @@
     </div>
 </fieldset>
 </form>
+    </div>
 </body>
 </html>
