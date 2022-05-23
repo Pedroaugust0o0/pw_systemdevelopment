@@ -9,11 +9,11 @@
 <body>
 <header class="cabeçalho"> 
     <div>
-<nav class="menu_principal">
+ <nav class="menu_principal">
   <a type="text/pages" href="pages/cad_cliente.php">Cadastro</a>
   <a type="text/pages" href="pages/login.php">Login</a>
   <a type="text/pages" href="pages/sabores.php">Sabores</a>    
-</nav>
+ </nav>
     </div>
  <h1 class ="título_empresa">Gelateria</h1>
 </header>
@@ -21,8 +21,11 @@
  <h2>sorvetes<h2>
  <h3>Artesanais<h3>
  <button class ="botão">Menu</button>
+ <img class="sorvete" src="img/sorvet.
+rsc-removebg-preview.png" 
+alt="sorvete">
 </main>
-  <img class="sorvete" src="img/sorvet.rsc-removebg-preview.png" alt="sorvete">
+  
 </body>
 </html>
 

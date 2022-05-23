@@ -34,15 +34,16 @@ body{
 }
 
 .conteudo_prinpial{
+    text-align: center;
+    font-family: 'Abel', sans-serif;
 }
 
 .sorvete{
-    height: 800px;
+    height: 500px;
+    align-items: center;
 
 }
 
 .botão{
-    color: aqua;
-
-
+    color: rebeccapurple;
 }

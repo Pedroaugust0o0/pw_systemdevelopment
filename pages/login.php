@@ -7,6 +7,6 @@
     <title>login</title>
 </head>
 <body>
- </form>
- </body>
+    
+</body>
 </html>
