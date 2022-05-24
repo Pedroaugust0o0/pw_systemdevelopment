@@ -8,14 +8,12 @@
 </head>
 <body>
     <h1>Cadastro</h1>
-<<<<<<< HEAD
+
     <form method="$_POST" action="cadastro2.php">
     
     <form action="">
-=======
     <div id="area">
 <form class ="formulario"action="">
->>>>>>> 616216a81ad445a72ceb103fe0ff6dfbafad5cad
 <fieldset>
     <legend><b>Fórmulário de cadastro</b></legend>
     <br>

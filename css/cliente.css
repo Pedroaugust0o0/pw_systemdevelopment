@@ -1,18 +1,3 @@
-*{
-    border: 0ch;
-    margin: 0px;
-}
-
-#area{
-  position:relative;
-  left:37%;
-  top:10em;
-  width:320px;
-  height:270px;
-}
-
-#area #formulario
-{
-  position:absolute;
-  display:block;
+.formulario{
+  
 }
