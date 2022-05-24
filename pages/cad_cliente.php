@@ -4,18 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Cadastro do cliente</title>
-    <link rel="stylesheet" type="text/css" href="css/cliente.css">
+    <link rel="stylesheet" type="text/css" href="../css/cliente.css">
 </head>
 <body>
     <h1>Cadastro</h1>
+<<<<<<< HEAD
     <form method="$_POST" action="cadastro2.php">
     
     <form action="">
+=======
+    <div id="area">
+<form class ="formulario"action="">
+>>>>>>> 616216a81ad445a72ceb103fe0ff6dfbafad5cad
 <fieldset>
     <legend><b>Fórmulário de cadastro</b></legend>
     <br>
     <div class="inputBox">
-        <input type="text" name="nome" id="nome" required>
+        <input type="text" name="nome" id="nome" class="campo_nome"required>
         <label for="nome" class="labelInput">Nome completo</label>
                     <br></br>
         <input type="email" name="email" id="email" required>
@@ -42,5 +47,6 @@
     </div>
 </fieldset>
 </form>
+    </div>
 </body>
 </html>
