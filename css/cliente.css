@@ -1,18 +1,16 @@
-*{
-    border: 0ch;
-    margin: 0px;
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Cookie&display=swap');
+
+body{
+  background: linear-gradient(to right, rgb(175,238,238), rgb(230,230,250))
 }
 
-#area{
-  position:relative;
-  left:37%;
-  top:10em;
-  width:320px;
-  height:270px;
+.formulario{
+  display: block;
+  block-size: 199px;
 }
 
-#area #formulario
-{
-  position:absolute;
-  display:block;
+legend{
+  font-size: 28px;
+  font-family: 'Cookie', cursive;
 }
