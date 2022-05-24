@@ -8,6 +8,20 @@
     <title>login</title>
 </head>
 <body>
-    
+<fieldset>
+<legend>Faça seu login e aporveite ao máximo</legend>
+    <form action="" method="$_POST"> 
+        <label for="nome" class="labelInput">Nome completo</label>
+                    <br></br>
+        <input type="email" name="email" id="email" class="campo_email"required placeholder="Email">
+                    <br></br>
+        <label for="nome" class="labelInput">Senha</label>
+                    <br></br>
+        <input type="senha" name="senha" id="senha" class="campo_senha"required placeholder="Senha"> 
+                    <br></br>
+        <input type="submit" class="entrar" onclick="Enviar();" value="Entrar"/>
+</form>
+    </form>
+</fieldset> 
 </body>
 </html>
