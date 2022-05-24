@@ -43,6 +43,9 @@
         <input type = "checkbox" id = "sexo" name = "sexo" value = "sexo">
         <label for="nome" class="labelInput">Feminino</label>
                     <br></br>
+        <input type = "checkbox" id = "sexo" name = "sexo" value = "sexo">
+        <label for="nome" class="labelInput">trans neutre</label>
+                    <br></br>
         <input type="submit" name="button" id="submit">
     </div>
 </fieldset>
