@@ -8,7 +8,9 @@
 </head>
 <body>
     <h1>Cadastro</h1>
-<form action="">
+    <form method="$_POST" action="cadastro2.php">
+    
+    <form action="">
 <fieldset>
     <legend><b>Fórmulário de cadastro</b></legend>
     <br>
