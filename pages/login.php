@@ -8,20 +8,22 @@
     <title>login</title>
 </head>
 <body>
+    <div id="area">
 <fieldset>
-<legend>Faça seu login e aporveite ao máximo</legend>
+<legend>Faça seu login e aproveite ao máximo!</legend>
     <form action="" method="$_POST" class="formulario"> 
-        <label for="nome" class="labelInput">Nome completo</label>
+        <label for="nome" class="labelInput">Email</label>
                     <br></br>
         <input type="email" name="email" id="email" class="campo_email"required placeholder="Email">
                     <br></br>
-        <label for="nome" class="labelInput">Senha</label>
+        <label for="senha" class="labelInput">Senha</label>
                     <br></br>
-        <input type="senha" name="senha" id="senha" class="campo_senha"required placeholder="Senha"> 
+        <input type="password" name="senha" id="senha" class="campo_senha"required placeholder="Senha"> 
                     <br></br>
-        <input type="submit" class="entrar" onclick="Enviar();" value="Entrar"/>
+        <input type="submit" class="entrar" onclick="Enviar();" value="Entrar" class="botao"/>
 </form>
     </form>
 </fieldset> 
+    </div>
 </body>
 </html>

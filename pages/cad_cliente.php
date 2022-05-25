@@ -8,28 +8,24 @@
 </head>
 <body>
     <h1>Cadastro</h1>
-
-    <form method="$_POST" action="cadastro2.php">
-    
-    <form action="">
     <div id="area">
-<form class ="formulario"action="">
+<form method="$_POST" class ="formulario"action="cadastro2.php">
 <fieldset>
     <legend><b>Fórmulário de cadastro</b></legend>
     <br>
     <div class="inputBox">
-        <input type="text" name="nome" id="nome" class="campo_nome"required>
+        <input type="text" name="nome" id="nome" class="campo_nome"required placeholder="Nome">
         <label for="nome" class="labelInput">Nome completo</label>
                     <br></br>
-        <input type="email" name="email" id="email" required>
+        <input type="email" name="email" id="email" required placeholder="Email">
         <label for="nome" class="labelInput">Email</label>
                     <br></br>
-        <input type="password" name="senha" id="senha" required>
+        <input type="password" name="senha" id="senha" required placeholder="Senha">
         <label for="nome" class="labelInput">Senha</label> 
                     <br></br>
         <input type="number" name="cpf" \
 			pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" \
-			title="Digite um CPF no formato: xxx.xxx.xxx-xx">
+			title="Digite um CPF no formato: xxx.xxx.xxx-xx" placeholder="xxx.xxx.xxx.xx">
         <label for="nome" class="labelInput">CPF</label>
                     <br></br>
         <input type="date" name="dtns" id="dtns" required>
@@ -44,7 +40,7 @@
         <input type = "checkbox" id = "sexo" name = "sexo" value = "sexo">
         <label for="nome" class="labelInput">trans neutre</label>
                     <br></br>
-        <input type="submit" name="button" id="submit">
+        <input type="submit" name="button" id="submit" class="botao">
     </div>
 </fieldset>
 </form>
