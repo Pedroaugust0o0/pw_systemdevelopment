@@ -74,6 +74,8 @@ a:hover {
     align-items: center;
     justify-content: center;
     padding: 20px;
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
 }
 .rodape #div1{
     align-items: stretch;
@@ -82,3 +84,4 @@ a:hover {
     width: 50px;
     height: 100px;
 }
+

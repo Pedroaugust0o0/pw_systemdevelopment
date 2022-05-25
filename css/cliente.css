@@ -1,16 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Cookie&family=Lobster+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
 
 body{
-  background: linear-gradient(to right, rgb(175,238,238), rgb(230,230,250))
+  background: linear-gradient(to right, rgb(255, 135, 245), rgb(253, 255, 150))
 }
 
-.formulario{
+/*.formulario{
   display: block;
-  block-size: 199px;
-}
+}*/
 
 legend{
-  font-size: 28px;
+  font-size: 48px;
   font-family: 'Cookie', cursive;
+}
+
+input { 
+  background-color: #fefefe; 
+  font: 18px verdana, arial, helvetica, sans-serif;
+  color:#ff28f8;
+  border:2px solid #ff78f4;
+  }
+
+.botao{
+  background-color: #ff87df;
+  font-family: 'Lobster Two', cursive;
+  color: #CCFFFF;
+  }
+
+#area
+{
+  position:relative;
+  left:37%;
+  top:30%;
+  width:400px;
+  height:300px;
+}
+
+fieldset{
+  margin-top: 300px;
+  background-color: #ffa5fc;
+  width: 900px;
+  height: 740px;
+}
+
+label{
+  font-family: 'Allura', cursive;
+  font-size: 48px;
+
 }

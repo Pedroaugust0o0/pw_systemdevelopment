@@ -19,6 +19,7 @@ if (mysqli_query($conexao, $sql)) {
 }
 mysqli_close($conexao);
 ?>
+<<<<<<< HEAD
 
 
 
@@ -45,3 +46,5 @@ mysqli_close($conexao);
 
 
 
+=======
+>>>>>>> 6e6e7200b958b68c0eac854dfc25bd7f7fa8dda0

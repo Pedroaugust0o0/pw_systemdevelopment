@@ -5,12 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Cadastro do cliente</title>
-    <!-- <link rel="stylesheet" type="text/css" href="../css/cliente.css"> -->
+    <link rel="stylesheet" type="text/css" href="../css/cliente.css">
 </head>
 
 <body>
+<<<<<<< HEAD
     <h1>Cadastro</h1>
         <form method="post" action="cad_cliente.php">
+=======
+        <form method="post" action="cadastroCliente.php" class="form1">
+>>>>>>> 6e6e7200b958b68c0eac854dfc25bd7f7fa8dda0
             <fieldset>
                 <legend><b>Fórmulário de cadastro</b></legend>
                 <br>
