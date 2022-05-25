@@ -13,7 +13,7 @@
   <header class="cabecalho">
     <div>
       <nav class="menu_principal">
-        <a type="text/pages" href="pages/cad_cliente.php">Cadastro</a>
+        <a type="text/pages" href="pages/cadCliente.php">Cadastro</a>
         <a type="text/pages" href="pages/login.php">Login</a>
         <a type="text/pages" href="pages/sabores.php">Sabores</a>
       </nav>
