@@ -1,16 +1,15 @@
 <?php
 include "conexao.php";
 
-$produto= $_POST['produto'];
-$marca = $_POST['marca'];
-$peso= $_POST['peso'];
-$dtvalidade = $_POST['dtvalidade'];
-$fornecedor = $_POST['fornecedor'];
-$quantidade= $_POST['quantidade'];
-$preço = $_POST['preço'];
+$nome = $_POST['nome'];
+$email = $_POST['email'];
+$senha = $_POST['senha'];
+$cpf = $_POST['cpf'];
+$dtns = $_POST['dtns'];
+$sexo = $_POST['sexo'];
 
 
-$sql = "INSERT INTO cliente(nome, email, senha, cpf, dtns, sexo)
+$sql = "INSERT INTO cliente(nome, email, senha, cpf, dtns, sexo )
         VALUES ('$nome' , '$email', '$senha' , '$cpf' , '$dtns' , '$sexo')";
 
 if (mysqli_query($conexao, $sql)) {
@@ -46,4 +45,3 @@ mysqli_close($conexao);
 
 
 
-<form action="cadastro.php" method="POST">

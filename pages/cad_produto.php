@@ -2,20 +2,18 @@
 include "conexao.php";
 
 $produto = $_POST['produto'];
-$nome = $_POST['nome'];
-$marcadoproduto = $_POST['marca do produto'];
+$marcadoproduto = $_POST['marca'];
 $peso = $_POST['peso'];
-$validadedemercadoria = $_POST['validade de mercadoria'];
+$datavalidade = $_POST['dtvalidade'];
 $fornecedor = $_POST['fornecedor'];
-$quantiadaemin = $_POST['quantiadae min'];
-$quantiadaemax = $_POST['quantidade max'];
-$preço = $_POST['preço'];
+$qtdecomprada = $_POST['qdte'];
+$preco = $_POST['preco'];
 
-$sql = "INSERT INTO cliente(produto, nome, marcadoproduto, peso, valiadadedemercadoria, fornecedor, quantidademin, quantidademax, preço )
-        VALUES ('$produto' , '$nome', '$marcadoproduto' , '$peso' , '$validadedemercadoria' , '$fornecedor' , '$quantidade' , '$quantidademax' , '$preço')";
+$sql = "INSERT INTO produto(produto, marcadoproduto, peso, datavalidade, fornecedor, qtdecomprada, preco )
+        VALUES ('$produto' , '$marcadoproduto' , '$peso' , '$datavalidade' , '$fornecedor' , '$qtdecomprada' , '$preco')";
 
 if (mysqli_query($conexao, $sql)) {
-    echo "Usuário cadastro com sucesso";
+    echo "Produto cadastrado com sucesso";
 } else {
     echo  "Erro" . mysqli_connect_error($conexao);
 }

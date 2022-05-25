@@ -10,7 +10,7 @@
 
 <body>
     <h1>Cadastro</h1>
-        <form method="post" action="cadastroCliente.php">
+        <form method="post" action="cad_cliente.php">
             <fieldset>
                 <legend><b>Fórmulário de cadastro</b></legend>
                 <br>
