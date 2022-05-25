@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Cookie&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Cookie&family=Lobster+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
 
 body{
   background: linear-gradient(to right, rgb(255, 135, 245), rgb(253, 255, 150))
@@ -39,5 +40,13 @@ input {
 
 fieldset{
   margin-top: 300px;
-  box-shadow: #000;
+  background-color: #ffa5fc;
+  width: 900px;
+  height: 740px;
+}
+
+label{
+  font-family: 'Allura', cursive;
+  font-size: 48px;
+
 }

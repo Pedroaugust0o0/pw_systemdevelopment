@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../css/cliente.css">
+    <link rel="stylesheet" type="text/css" href="../css/login.css">
     <title>login</title>
 </head>
 <body>
     <div id="area">
 <fieldset>
 <legend>Faça seu login e aproveite ao máximo!</legend>
-    <form action="" method="$_POST" class="formulario"> 
+    <form action="" method="$_POST" class="form2"> 
         <label for="nome" class="labelInput">Email</label>
                     <br></br>
         <input type="email" name="email" id="email" class="campo_email"required placeholder="Email">
@@ -20,7 +20,7 @@
                     <br></br>
         <input type="password" name="senha" id="senha" class="campo_senha"required placeholder="Senha"> 
                     <br></br>
-        <input type="submit" class="entrar" onclick="Enviar();" value="Entrar" class="botao"/>
+        <input type="submit" class="botao" onclick="Enviar();" value="Entrar" class="botao"/>
 </form>
     </form>
 </fieldset> 

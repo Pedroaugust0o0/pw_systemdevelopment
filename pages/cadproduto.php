@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Cadastro do Produto</title>
-    <!-- <link rel="stylesheet" type="text/css" href="../css/cliente.css"> -->
+    <link rel="stylesheet" type="text/css" href="../css/cliente.css">
 </head>
 
 <body>

@@ -9,8 +9,7 @@
 </head>
 
 <body>
-    <h1>Cadastro</h1>
-        <form method="post" action="cadastroCliente.php">
+        <form method="post" action="cadastroCliente.php" class="form1">
             <fieldset>
                 <legend><b>Fórmulário de cadastro</b></legend>
                 <br>
