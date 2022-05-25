@@ -7,10 +7,6 @@ body{
   background: linear-gradient(to right, rgb(255, 135, 245), rgb(253, 255, 150))
 }
 
-/*.formulario{
-  display: block;
-}*/
-
 legend{
   font-size: 33px;
   font-family: 'Signika', sans-serif;
@@ -40,9 +36,9 @@ input {
 
 fieldset{
   margin-top: 300px;
-  background-color: #ffa5fc;
+  background-color: #fefefe;
   width: 600px;
-  height: 400px;
+  height: 300px;
 }
 
 label{

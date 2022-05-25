@@ -11,7 +11,7 @@
 <body>
         <form method="post" action="cad_cliente.php">
             <fieldset>
-                <legend><b>Fórmulário de cadastro</b></legend>
+                <legend><b>Formulário de cadastro</b></legend>
                 <br>
                 <div class="inputBox">
                     <input type="text" name="nome" id="nome" class="campo_nome" required>

@@ -1,19 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Cookie&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Abel&family=Cookie&family=Lobster+Two&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap');
 
 body{
   background: linear-gradient(to right, rgb(255, 135, 245), rgb(253, 255, 150))
 }
 
-/*.formulario{
-  display: block;
-}*/
-
 legend{
-  font-size: 48px;
-  font-family: 'Cookie', cursive;
+  font-size: 33px;
+  font-family: 'Signika', sans-serif;
 }
 
 input{ 
@@ -39,14 +35,16 @@ input{
 }
 
 fieldset{
-  margin-top: 300px;
-  background-color: #ffa5fc;
-  width: 900px;
-  height: 740px;
+  margin-top: 100px;
+  background-color: #fefefe;
+  width: 500px;
+  height: 520px;
+  margin-left: 35%;
+  
 }
 
 label{
-  font-family: 'Allura', cursive;
-  font-size: 48px;
+  font-family: 'Stint Ultra Condensed', cursive;
+  font-size: 30px;
 
 }
