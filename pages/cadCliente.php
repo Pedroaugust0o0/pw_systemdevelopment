@@ -9,7 +9,10 @@
 </head>
 
 <body>
+<<<<<<< HEAD
     <h1>Cadastro</h1>
+=======
+>>>>>>> 6a0547ac80dd04c0f2838466cb3ce7ca7c89d9ae
         <form method="post" action="cad_cliente.php">
             <fieldset>
                 <legend><b>Fórmulário de cadastro</b></legend>

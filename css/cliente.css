@@ -16,7 +16,7 @@ legend{
   font-family: 'Cookie', cursive;
 }
 
-input { 
+input{ 
   background-color: #fefefe; 
   font: 18px verdana, arial, helvetica, sans-serif;
   color:#ff28f8;
@@ -24,7 +24,7 @@ input {
   }
 
 .botao{
-  background-color: #ff87df;
+  background-color: #f960d0;
   font-family: 'Lobster Two', cursive;
   color: #CCFFFF;
   }
