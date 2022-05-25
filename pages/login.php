@@ -10,15 +10,9 @@
 <body>
     <div id="area">
 <fieldset>
-<<<<<<< HEAD
 <legend>Faça seu login e aporveite ao máximo</legend>
     <form action="login2.php" method="POST" class="formulario"> 
         <label for="nome" class="labelInput">Nome completo</label>
-=======
-<legend>Faça seu login e aproveite ao máximo!</legend>
-    <form action="" method="$_POST" class="form2"> 
-        <label for="nome" class="labelInput">Email</label>
->>>>>>> 6e6e7200b958b68c0eac854dfc25bd7f7fa8dda0
                     <br></br>
         <input type="email" name="email" id="email" class="campo_email"required placeholder="Email">
                     <br></br>
