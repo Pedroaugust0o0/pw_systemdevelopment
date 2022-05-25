@@ -28,16 +28,16 @@ input {
   color: #CCFFFF;
   }
 
-fieldset{
-  height:246px;
-  border: ;
-}
-
 #area
 {
   position:relative;
   left:37%;
   top:30%;
-  width:320px;
-  height:270px;
+  width:400px;
+  height:300px;
+}
+
+fieldset{
+  margin-top: 300px;
+  box-shadow: #000;
 }
