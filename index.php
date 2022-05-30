@@ -31,14 +31,8 @@ rsc-removebg-preview.png" alt="sorvete">
       <img src="img/icone-local.png" alt="icone-local">
       <p>ENDEREÇO Av. Bernardino de Campos, 98 São Paulo, SP 12345-678</p>
     </div>
-    <div class="div2">CONTATO
-      info@meusite.com
-      Tel: (11) 3456-7890
-    </div>
-    <div class="div3">HORÁRIOS
-      ABERTO TODOS OS DIAS
-      10:00 - 22:00
-    </div>
+    <div class="div2">CONTATO info@meusite.com Tel: (11) 3456-7890</div>
+    <div class="div3">HORÁRIOS ABERTO TODOS OS DIAS 10:00 - 22:00</div>
   </footer>
 </body>
 

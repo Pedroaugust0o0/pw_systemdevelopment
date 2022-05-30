@@ -20,13 +20,13 @@
     <img src="img/morangosort-removebg-preview" alt="Sorvete de morango">
     <h3>MORANGO BAUNILHA</h3>
 
-    <img src="/img/cheesecake-de-goiabada-removebg-preview" alt="Sorvete de chessecake">
+    <img src="img/cheesecake-de-goiabada-removebg-preview" alt="Sorvete de chessecake">
     <h3>CHESSECAKE E GOIABADA</h3>
 
-    <img src="/img/pistache-removebg-preview" alt="Sorvete de pistache">
+    <img src="img/pistache-removebg-preview" alt="Sorvete de pistache">
     <h3>PISTACHE</h3>
 
-    <img src="/img/blueberrysorvete-removebg-preview" alt="Sorvete de mirtilo">
+    <img src="img/blueberrysorvete-removebg-preview" alt="Sorvete de mirtilo">
     <h3>MIRTILO</h3>
 </body>
 </html>
