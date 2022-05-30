@@ -30,9 +30,10 @@ body{
  font-weight: bold;
  border-radius: 4px;
  border-style:hidden;
- font-size: 18px;
+ font-size: 22px;
 
 }
+
 a:hover {
 	/* background:rgb(0, 0, 0); */
 	color:rgb(255, 254, 254);
@@ -44,8 +45,6 @@ a:hover {
     font-family: 'Cookie', cursive;
     display: flex;
     justify-content: center;
-    
-
 }
 
 .conteudo_prinpial{
@@ -63,12 +62,14 @@ a:hover {
     background-color: black;
     color: #fefefefe;
 }
+
 .rodape{
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 10px;
 }
+
 .rodape div{
     display: flex;
     align-items: center;
@@ -77,9 +78,11 @@ a:hover {
     font-family: 'Abel', sans-serif;
     font-size: 20px;
 }
+
 .rodape #div1{
     align-items: stretch;
 }
+
 .rodape div img{
     width: 50px;
     height: 100px;
