@@ -10,11 +10,7 @@
 <body>
     <div id="area">
 <fieldset>
-<<<<<<< HEAD
 <legend>Faça seu login e aporveite ao máximo</legend>
-=======
-<legend>Faça seu login e aproveite ao máximo</legend>
->>>>>>> 6a0547ac80dd04c0f2838466cb3ce7ca7c89d9ae
     <form action="login2.php" method="POST" class="formulario"> 
         <label for="nome" class="labelInput">Nome completo</label>
                     <br></br>
