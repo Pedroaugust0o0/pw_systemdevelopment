@@ -25,6 +25,10 @@ input {
   color: #CCFFFF;
   }
 
+.botao :hover{
+  color: rgb(rgb(255, 200, 200));
+}
+
 #area{
   position:relative;
   left:37%;
