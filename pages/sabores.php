@@ -8,8 +8,8 @@
     <title>Sabores</title>
 </head>
 <body>
-    <h2>Nossos</h2>
-    </h1>Sabores</h1>
+    <h1>Nossos</h1>
+    </h2>Sabores</h2>
     <h1>Sabores de sorvete</h1>
     <img src="img/sorveteoreo-removebg-preview.png" alt="Sorvete de oreo">
     <h3>OREO</h3>
@@ -23,5 +23,7 @@
     <h3>PISTACHE</h3>
     <img src="img/blueberrysorvete-removebg-preview.png" alt="Sorvete de mirtilo">
     <h3>MIRTILO</h3>
+
+    <h1>Sabores de sorbet</h1>
 </body>
 </html>
