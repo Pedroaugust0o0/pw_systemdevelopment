@@ -17,13 +17,13 @@ input {
   font: 18px verdana, arial, helvetica, sans-serif;
   color:#ff28f8;
   border:2px solid #ff78f4;
-  }
+}
 
 .botao{
   background-color: #ff87df;
   font-family: 'Lobster Two', cursive;
   color: #CCFFFF;
-  }
+}
 
 .botao :hover{
   color: rgb(rgb(255, 200, 200));

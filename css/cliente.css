@@ -17,19 +17,19 @@ input{
   font: 18px verdana, arial, helvetica, sans-serif;
   color:#ff28f8;
   border:2px solid #ff78f4;
-  }
+}
 
 .botao{
   background-color: #f960d0;
   font-family: 'Lobster Two', cursive;
   color: #CCFFFF;
-  }
+}
 
 #area
 {
   position:relative;
   left:37%;
-  top:30%;
+  top:40%;
   width:400px;
   height:300px;
 }
@@ -40,7 +40,8 @@ fieldset{
   width: 500px;
   height: 520px;
   margin-left: 35%;
-  
+  margin-top: 10%;
+  border: 0ch;
 }
 
 label{
