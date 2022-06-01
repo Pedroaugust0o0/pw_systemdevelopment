@@ -25,8 +25,7 @@ input{
   color: #CCFFFF;
 }
 
-#area
-{
+#area{
   position:relative;
   left:37%;
   top:40%;
@@ -38,7 +37,7 @@ fieldset{
   margin-top: 100px;
   background-color: #fefefe;
   width: 500px;
-  height: 520px;
+  height: 570x;
   margin-left: 35%;
   margin-top: 10%;
   border: 0ch;
@@ -47,5 +46,4 @@ fieldset{
 label{
   font-family: 'Stint Ultra Condensed', cursive;
   font-size: 30px;
-
 }
