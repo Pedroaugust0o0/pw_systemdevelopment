@@ -20,7 +20,7 @@
     <h3>CHESSECAKE E GOIABADA</h3>
     <img src="img/pistache-removebg-preview.png" alt="Sorvete de pistache">
     <h3>PISTACHE</h3>
-    <img src="img/blueberrysorvete-removebg-preview.png" alt="Sorvete de mirtilo">
+    <img src="img/sorvetedemirtilo.jpg" alt="Sorvete de mirtilo">
     <h3>MIRTILO</h3>
     <h1 class="medio">Sabores de sorbet</h1>
 </body>
