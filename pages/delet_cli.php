@@ -5,16 +5,6 @@
 
     $sql = "delete from cliente where id=".$id;
 
-<<<<<<< HEAD
-    if($conexao->query($sql)){
-      header('location:tabelaCli.php');
-    }else{
-      header('location:tabelaCli.php');
-      echo 'Id não encontrado';
-    }
-
-      
-=======
      foreach ($resultado as $key => $valor) {}
    // echo $valor['id'];
      ?>
@@ -25,4 +15,3 @@
        <td><?php echo $valor['dtns']; ?></td>
        <td><?php echo $valor['sexo']; ?></td>
      }
->>>>>>> c4a88bad95baaaa546b9042b88dc4bed2b160a98
