@@ -21,6 +21,8 @@
         <input type="password" name="senha" id="senha" class="campo_senha"required placeholder="Senha"> 
                     <br></br>
         <input type="submit" class="botao" onclick="Enviar();" value="Entrar" class="botao"/>
+                    <br></br>
+        <input type="button" value="Voltar" onClick="history.go(-1)">
 </form>
     </form>
 </fieldset> 

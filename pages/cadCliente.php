@@ -39,6 +39,8 @@
                     <label for="nome" class="labelInput">trans neutre</label>
                     <br></br>
                     <input type="submit" name="button" id="submit">
+                    <br></br>
+                    <input type="button" value="Voltar" onClick="history.go(-1)">
                 </div>
             </fieldset>
         </form>
