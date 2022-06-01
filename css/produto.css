@@ -1,3 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    border: 0px;
+}
 body{
     background: linear-gradient(to right, rgb(255, 132, 218), rgb(255, 232, 158))
+}
+
+.menor{
+    text-align: center;
+    font-size: 38px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    border-top: 68px;
+    color:rgb(245, 245, 245);
+}
+
+.maior{
+    text-align: center;
+    font-size: 115px;
+    font-family: 'Anton', sans-serif;
+    border-top: 68px;
+    font-weight: 800;
+    color:rgb(245, 245, 245);
+}
+
+.medio{
+    text-align: center;
+    font-size: 48px;
+    margin-top: 168px;
+    font-family: 'Comfortaa', cursive;
+    color:rgb(245, 245, 245);
+    
 }

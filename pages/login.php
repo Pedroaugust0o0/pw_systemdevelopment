@@ -10,11 +10,7 @@
 <body>
     <div id="area">
 <fieldset>
-<<<<<<< HEAD
-<legend>Faça seu login e aproveite ao máximo</legend>
-=======
 <legend>Faça seu login e aporveite ao máximo</legend>
->>>>>>> d0b2f7e288d528e7f512d469e366a1209e23ad5d
     <form action="login2.php" method="POST" class="formulario"> 
         <label for="nome" class="labelInput">Nome completo</label>
                     <br></br>
@@ -25,6 +21,8 @@
         <input type="password" name="senha" id="senha" class="campo_senha"required placeholder="Senha"> 
                     <br></br>
         <input type="submit" class="botao" onclick="Enviar();" value="Entrar" class="botao"/>
+                    <br></br>
+        <input type="button" value="Voltar" onClick="history.go(-1)">
 </form>
     </form>
 </fieldset> 
