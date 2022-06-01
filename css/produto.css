@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
 *{
     margin: 0px;
     border: 0px;
@@ -9,14 +12,20 @@ body{
 .menor{
     text-align: center;
     font-size: 38px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    border-top: 68px;
 }
 
 .maior{
     text-align: center;
     font-size: 115px;
+    font-family: 'Anton', sans-serif;
+    border-top: 68px;
 }
 
 .medio{
     text-align: center;
     font-size: 48px;
+    margin-top: 168px;
+    font-family: 'Comfortaa', cursive;;
 }
