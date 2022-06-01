@@ -1,3 +1,22 @@
+*{
+    margin: 0px;
+    border: 0px;
+}
 body{
     background: linear-gradient(to right, rgb(255, 132, 218), rgb(255, 232, 158))
+}
+
+.menor{
+    text-align: center;
+    font-size: 38px;
+}
+
+.maior{
+    text-align: center;
+    font-size: 115px;
+}
+
+.medio{
+    text-align: center;
+    font-size: 48px;
 }
