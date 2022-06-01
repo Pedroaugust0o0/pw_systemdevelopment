@@ -19,9 +19,10 @@ input{
   border:2px solid #ff78f4;
 }
 
-input .botao{
-  background-color: #ff92e2;
+.submit{
+  background-color: #ff75da;
   font-family: 'Lobster Two', cursive;
+  color: #fefefe;
 }
 
 #area{
