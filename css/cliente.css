@@ -19,10 +19,9 @@ input{
   border:2px solid #ff78f4;
 }
 
-.botao{
-  background-color: #f960d0;
+input .botao{
+  background-color: #ff92e2;
   font-family: 'Lobster Two', cursive;
-  color: #CCFFFF;
 }
 
 #area{
@@ -35,7 +34,7 @@ input{
 
 fieldset{
   margin-top: 100px;
-  background-color: #fefefe;
+  background-color: #fff6f6;
   width: 500px;
   height: 570x;
   margin-left: 35%;

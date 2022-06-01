@@ -14,6 +14,7 @@ body{
     font-size: 38px;
     font-family: 'PT Sans Narrow', sans-serif;
     border-top: 68px;
+    color:rgb(245, 245, 245);
 }
 
 .maior{
@@ -21,11 +22,15 @@ body{
     font-size: 115px;
     font-family: 'Anton', sans-serif;
     border-top: 68px;
+    font-weight: 800;
+    color:rgb(245, 245, 245);
 }
 
 .medio{
     text-align: center;
     font-size: 48px;
     margin-top: 168px;
-    font-family: 'Comfortaa', cursive;;
+    font-family: 'Comfortaa', cursive;
+    color:rgb(245, 245, 245);
+    
 }
