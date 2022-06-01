@@ -5,7 +5,7 @@
 
     $resultado = $conexao->query($sql);
 
-     foreach ($resultado as $key => $valor) {
+     foreach ($resultado as $key => $valor) {}
    // echo $valor['id'];
      ?>
        <tr><?php echo $valor['id']; ?></td>

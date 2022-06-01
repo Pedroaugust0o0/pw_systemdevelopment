@@ -10,7 +10,7 @@
     <h1 class="menor">Nossos</h1>
     <h2 class="maior">Sabores</h2>
     <h1 class="medio">Sabores de sorvete</h1>
-    <img src="image.png" alt="Sorvet de amora">
-    <h1 class="medio">Sabores de sorvete</h1>
+    <img src="/img/amora.src.jpg" alt="Sorvet de amora">
+    <h1 class="medio">Sabores de sorbete</h1>
 </body>
 </html>
