@@ -14,17 +14,17 @@
                 <legend><b>Formulário de cadastro</b></legend>
                 <br>
                 <div class="inputBox">
-                    <input type="text" name="nome" id="nome" class="campo_nome" required placeholder="Nome">
+                    <input type="text" name="nome" id="nome" maxlength="240" class="campo_nome" required placeholder="Nome">
                     <label for="nome" class="labelInput">Nome completo</label>
                     <br></br>
-                    <input type="email" name="email" id="email" required placeholder="Email">
+                    <input type="email" name="email" id="email" maxlength="50" required placeholder="Email">
                     <label for="nome" class="labelInput">Email</label>
                     <br></br>
-                    <input type="password" name="senha" id="senha" required placeholder="Senha">
+                    <input type="password" name="senha" id="senha"  maxlength="10"  required placeholder="Senha">
                     <label for="nome" class="labelInput">Senha</label>
                     <br></br>
-                    <input type="number" name="cpf" \ pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" \ placeholder="xxx.xxx.xxx-xx">
-                    <label for="nome" class="labelInput">CPF</label>
+                    <input type="number"maxlength="11"   name="cpf"  pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" \ placeholder="xxx.xxx.xxx-xx">
+                    <label for="nome"   class="labelInput">CPF</label>
                     <br></br>
                     <input type="date" name="dtns" id="dtns" required>
                     <label for="nome" class="labelInput">Data de nascimento</label>
