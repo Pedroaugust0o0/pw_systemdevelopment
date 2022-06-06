@@ -1,17 +1,30 @@
 <?php
-    include 'conexao.php';
+  
+  if(!empty($_GET['id']))
+    {
 
-    $id = $_GET['id'];
+      include_once('conexao.php');
 
-    $sql = "delete from cliente where id=".$id;
+      $id = $_GET['id'];
 
-     foreach ($resultado as $key => $valor) {}
-   // echo $valor['id'];
-     ?>
-       <tr><?php echo $valor['id']; ?></td>
-       <td><?php echo $valor['nome']; ?></td>
-       <td><?php echo $valor['email']; ?></td>
-       <td><?php echo $valor['cpf']; ?></td>
-       <td><?php echo $valor['dtns']; ?></td>
-       <td><?php echo $valor['sexo']; ?></td>
-     }
+      $sqlSelect = "SELECT * FROM usuario WHERE id=$id";
+      
+      $result = $conexao->query($sqlSelect);
+
+      if($result->num_rows > 0)
+      {
+          $sqlDelete = "DELETE FROM usuario WHERE id=$id";
+          $resultDelete = $conexao->query($sqlSelect);
+     
+     
+     
+        }
+    }
+      header('Location: conexao.php')
+
+
+?>
+
+
+
+    

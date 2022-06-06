@@ -12,22 +12,22 @@
         <form method="post" action="cad_cliente.php">
             <fieldset>
                
-            <legend><b>Formulário de cadastro</b></legend>
+            <legend><b>Alterar Cadastro</b></legend>
                 <br>
                 <div class="inputBox">
-                    <input type="text" name="nome" id="nome" class="campo_nome" required>
+                    <input type="text" name="nome" id="nome" maxlength="240" class="campo_nome" placeholder="Nome" required>
                     <label for="nome" class="labelInput">Nome completo</label>
                     <br></br>
-                    <input type="email" name="email" id="email" required>
+                    <input type="email" name="email" id="email" maxlength="50"  placeholder="Email"  required>
                     <label for="nome" class="labelInput">Email</label>
                     <br></br>
-                    <input type="password" name="senha" id="senha" required>
+                    <input type="password" name="senha" id="senha" maxlength="10"  placeholder="Senha" required>
                     <label for="nome" class="labelInput">Senha</label>
                     <br></br>
-                    <input type="number" name="cpf" \ pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" \ title="Digite um CPF no formato: xxx.xxx.xxx-xx">
+                    <input type="text" id="cpf" maxlength="11" placeholder="xxx.xxx.xxx-xx" />
                     <label for="nome" class="labelInput">CPF</label>
                     <br></br>
-                    <input type="date" name="dtns" id="dtns" required>
+                    <input type="date" name="dtns" id="dtns"  placeholder="Dtns"  required>
                     <label for="nome" class="labelInput">Data de nascimento</label>
                     <br></br>
                     <input type="checkbox" id="sexo" name="sexo" value="sexo">
