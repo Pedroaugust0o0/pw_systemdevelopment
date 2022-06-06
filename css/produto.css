@@ -34,3 +34,39 @@ body{
     color:rgb(245, 245, 245);
     
 }
+
+.menu1{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+margin-top: 5%;
+}
+
+.oreo{
+    height: 310px;
+}
+
+.chocolate{
+    height: 310px;
+}
+
+.morango{
+    height: 380px;
+}
+
+.cheesecake{
+    height: 388px;
+}
+
+.pistache{
+    height: 310px;
+}
+
+.blueberry{
+    height: 310px;
+}
+
+h3{
+    color: rgb(245, 245, 245);
+    font-family: 'Comfortaa', cursive;
+}
