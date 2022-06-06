@@ -29,7 +29,7 @@ body{
 
 .medio{
     text-align: center;
-    font-size: 48px;
+    font-size: 58px;
     margin-top: 168px;
     font-family: 'Comfortaa', cursive;
     color:rgb(245, 245, 245);
@@ -80,6 +80,40 @@ h3{
     border-top: 0%;
 }
 
-div{
-    border-top: 0%;
+.menu2{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+margin-top: 10%;
+margin-bottom: 10%;
+}
+
+.limao{
+    height: 310px;
+
+}
+
+.framboesa{
+    height: 300px;
+
+}
+
+.banana{
+    height: 310px;
+
+}
+
+.manga{
+    height: 310px;
+
+}
+
+.maracuja{
+    height: 310px;
+
+}
+
+.baunilha{
+    height: 310px;
+
 }
