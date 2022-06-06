@@ -23,7 +23,11 @@
                     <input type="password" name="senha" id="senha"  maxlength="10" required placeholder="Senha">
                     <label for="nome" class="labelInput">Senha</label>
                     <br></br>
+<<<<<<< HEAD
                     <input type="text" id="cpf" maxlength="11" placeholder="xxx.xxx.xxx-xx" />
+=======
+                    <input type="number" name="cpf" maxlength="11"  placeholder="xxx.xxx.xxx-xx">
+>>>>>>> f68c3ed6887995367fcf741b38d50e6a78012522
                     <label for="nome"   class="labelInput">CPF</label>
                     <br></br>
                     <input type="date" name="dtns" id="dtns" required>

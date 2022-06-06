@@ -21,7 +21,7 @@
     <h1 class="titulo_empresa">Gelateria</h1>
   </header>
   <main class="conteudo_prinpial">
-    <h2>sorvetes<h2>
+    <h2>SORVETES<h2>
         <h3>Artesanais<h3>
             <img class="sorvete" src="img/sorvet.rsc-removebg-preview.png" alt="sorvete">
   </main>
