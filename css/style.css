@@ -8,6 +8,7 @@
 body{
     background: linear-gradient(to right, rgb(255, 132, 218), rgb(255, 232, 158))
 }
+
 .cabecalho{
     border-top: 0.4px solid #ff81f5;
 }
@@ -26,12 +27,11 @@ body{
 }
 
 .menu_principal a{
- text-decoration: none;
- font-weight: bold;
- border-radius: 4px;
- border-style:hidden;
- font-size: 22px;
-
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    border-style:hidden;
+    font-size: 22px;    
 }
 
 a:hover {
