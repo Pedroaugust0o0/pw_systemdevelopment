@@ -68,14 +68,14 @@ body{
 }
 
 h3{
- color: rgb(245, 245, 245);
- font-family: 'Comfortaa', cursive;
- font-size: 25px;
- font-weight: 300;
- text-align: center;
- border-top: 0%;
- font-style:italic;
- color: rgb(0, 0, 0);
+    color: rgb(245, 245, 245);
+    font-family: 'Comfortaa', cursive;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+    border-top: 0%;
+    font-style:italic;
+    color: rgb(0, 0, 0);
 }
 
 .medio2{
@@ -87,17 +87,24 @@ h3{
 }
 
 .menu2{
- display: flex;
- flex-wrap: wrap;
- justify-content: space-evenly;
- margin-top: 10%;
- margin-bottom: 10%;
- margin-left: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 0%;
+}
+
+button{
+    background-color: #000000;
+    font-family: 'Lobster Two', cursive;
+    color: #fefefe;
+    border-radius: 9px;
 }
 
 .limao{
     height: 310px;
-
+    border-top: 0.4px solid #000000;
 }
 
 .framboesa{
