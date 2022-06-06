@@ -14,11 +14,11 @@
     <form action="login2.php" method="POST" class="formulario"> 
         <label for="nome" class="labelInput">Nome completo</label>
                     <br></br>
-        <input type="email" name="email" id="email" class="campo_email"required placeholder="Email">
+        <input type="email" name="email" id="email"  maxlength="240" class="campo_email"required placeholder="Email">
                     <br></br>
         <label for="senha" class="labelInput">Senha</label>
                     <br></br>
-        <input type="password" name="senha" id="senha" class="campo_senha"required placeholder="Senha"> 
+        <input type="password" name="senha" id="senha" maxlength="8" class="campo_senha"required placeholder="Senha"> 
                     <br></br>
         <input type="submit" class="botao" onclick="Enviar();" value="Entrar" class="botao"/>
                     <br></br>
@@ -27,5 +27,6 @@
     </form>
 </fieldset> 
     </div>
+
 </body>
 </html>
