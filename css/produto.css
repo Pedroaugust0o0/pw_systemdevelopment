@@ -33,18 +33,14 @@ body{
     margin-top: 168px;
     font-family: 'Comfortaa', cursive;
     color:rgb(245, 245, 245);
-    
+    border-top: 20%;
 }
 
 .menu1{
-display: flex;
-flex-wrap: wrap;
-justify-content: space-evenly;
-margin-top: 5%;
-}
-
-img{
-    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 5%;
 }
 
 .oreo{
@@ -72,20 +68,31 @@ img{
 }
 
 h3{
-    color: rgb(245, 245, 245);
-    font-family: 'Comfortaa', cursive;
-    font-size: 25px;
-    font-weight: 300;
+ color: rgb(245, 245, 245);
+ font-family: 'Comfortaa', cursive;
+ font-size: 25px;
+ font-weight: 300;
+ text-align: center;
+ border-top: 0%;
+ font-style:italic;
+ color: rgb(0, 0, 0);
+}
+
+.medio2{
     text-align: center;
-    border-top: 0%;
+    font-size: 58px;
+    margin-top: 168px;
+    font-family: 'Comfortaa', cursive;
+    color:rgb(245, 245, 245);
 }
 
 .menu2{
-display: flex;
-flex-wrap: wrap;
-justify-content: space-evenly;
-margin-top: 10%;
-margin-bottom: 10%;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+ margin-top: 10%;
+ margin-bottom: 10%;
+ margin-left: 0%;
 }
 
 .limao{
@@ -117,3 +124,7 @@ margin-bottom: 10%;
     height: 310px;
 
 }
+
+/*fieldset{
+    
+}/*

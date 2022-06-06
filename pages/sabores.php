@@ -19,7 +19,6 @@
     <div><img src="../img/chocolat-icecream-removebg-preview.png" alt="chocolate" class="chocolate"> <h3>CHOCOLATE</h3></div>
     <div><img src="../img/morangosort-removebg-preview.png" alt="morango" class="morango"> <h3>MORANGO</h3></div>
 </div>
-</fieldset>
 <div class="menu1">
     <div><img src="../img/cheesecake-de-goiabada-removebg-preview.png" alt="cheesecake" class="cheesecake"> <h3>CHEESECAKE DE GOIABADA</h3></div>
     <div><img src="../img/pistache-removebg-preview.png" alt="pistache" class="pistache"> <h3>PISTACHE</h3></div>
@@ -28,17 +27,30 @@
 
 <!-------Divisão----------------------------------------para---------------------------------não gerar confusão----------------------------->
 
-<h1 class="medio">SABORES DE SORBET</h1>
+<h1 class="medio2">SABORES DE SORBET</h1>
 <div class="menu2">
-    
-    <div><img src="../img/limaosorbe-removebg-preview.png" alt="Sorbet de Limão" class="limao"><h3>SORBET DE LIMÃO</h3></div>
-    <div><img src="../img/franboesasorbet-removebg-preview.png" alt="Sorbet de franboesa" class="framboesa"><h3>SORBET DE FRAMBOESA</h3></div>
-    <div><img src="../img/bananasorbe-removebg-preview.png" alt="Sorbet de banana e mel" class="banana"><h3>SORBET DE BANANA E MEL</h3></div>
+    <div>
+        <img src="../img/limaosorbe-removebg-preview.png" alt="Sorbet de Limão" class="limao"> <h3>SORBET DE LIMÃO</h3>
+    </div>
+    <div>
+        <img src="../img/franboesasorbet-removebg-preview.png" alt="Sorbet de franboesa" class="framboesa"> <h3>SORBET DE FRAMBOESA</h3>
+    </div>
+    <div>
+        <img src="../img/bananasorbe-removebg-preview.png" alt="Sorbet de banana e mel" class="banana"> <h3>SORBET DE BANANA E MEL</h3>
+    </div>
 </div>
+
 <div class="menu2">
-    <div><img src="../img/mangasorbet-removebg-preview.png" alt="Sorbet de manga" class="manga"><h3>SORBET DE MANGA</h3></div>
-    <div><img src="../img/maracujasorbet-removebg-preview.png" alt="Sorbet de maracuja" class="maracuja"><h3>SORBET DE MARACUJÁ</h3></div>
-    <div><img src="../img/sorbetbaunilha-removebg-preview.png" alt="Sorbet de baunilha" class="baunilha"><h3>SORBET DE BAUNILHA</h3></div>
+    <div>
+        <img src="../img/mangasorbet-removebg-preview.png" alt="Sorbet de manga" class="manga"> <h3>SORBET DE MANGA</h3>
+    </div>
+    <div>
+        <img src="../img/maracujasorbet-removebg-preview.png" alt="Sorbet de maracuja" class="maracuja"> <h3>SORBET DE MARACUJÁ</h3>
+    </div>
+    <div>
+        <img src="../img/sorbetbaunilha-removebg-preview.png" alt="Sorbet de baunilha" class="baunilha"> <h3>SORBET DE BAUNILHA</h3>
+    </div>
 </div>
+</fieldset>
 </body>
 </html>
