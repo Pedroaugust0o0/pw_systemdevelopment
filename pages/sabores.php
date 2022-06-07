@@ -76,6 +76,7 @@
     </div>
 </div>
 </hr>
-<button type="$_GET" value="enviar">Enviar pedido</button>
+<button type="$_GET" value="enviar" class="butao">Enviar pedido</button>
+<button type="button" value="Voltar" onClick="history.go(-1)">Voltar</button>
 </body>
 </html>
