@@ -52,7 +52,7 @@
         <button value="compar">Comprar</button>
     </div>
     <div>
-        <img src="../img/franboesasorbet-removebg-preview.png" alt="Sorbet de franboesa" class="framboesa"> <h3>SORBET DE FRAMBOESA</h3>
+        <img src="../img/sorbetframboesa-removebg-preview.png" alt="Sorbet de franboesa" class="framboesa"> <h3>SORBET DE FRAMBOESA</h3>
         <button value="compar">Comprar</button>
     </div>
     <div>
@@ -76,6 +76,7 @@
     </div>
 </div>
 </hr>
-<button type="$_GET" value="enviar">Enviar pedido</button>
+<button type="pages/pedido.php" value="enviar" class="butao"><a href="./pedido.php">Enviar pedido</a></button>
+<button type="button" value="Voltar" onClick="history.go(-1)" class="voltar">Voltar</button>
 </body>
 </html>

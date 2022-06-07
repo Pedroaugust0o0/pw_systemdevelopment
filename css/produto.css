@@ -45,26 +45,32 @@ body{
 
 .oreo{
     height: 310px;
+    
 }
 
 .chocolate{
     height: 310px;
+    
 }
 
 .morango{
     height: 380px;
+    
 }
 
 .cheesecake{
     height: 388px;
+    
 }
 
 .pistache{
     height: 310px;
+    
 }
 
 .blueberry{
     height: 310px;
+    
 }
 
 h3{
@@ -100,36 +106,58 @@ button{
     font-family: 'Lobster Two', cursive;
     color: #fefefe;
     border-radius: 9px;
+    margin-bottom: 1%;
+}
+
+button a{
+    text-decoration: none;
+    color: #fefefe;
+    height: 27px;
+    size: 20px;
+    font-size: 23px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.voltar{
+    color: #fefefe;
+    height: 27px;
+    size: 20px;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: rgb(255, 127, 127);
 }
 
 .limao{
     height: 310px;
-    border-top: 0.4px solid #000000;
+    
 }
 
 .framboesa{
     height: 300px;
-
+    
 }
 
 .banana{
     height: 310px;
-
+    
 }
 
 .manga{
     height: 310px;
-
+    
 }
 
 .maracuja{
     height: 310px;
-
+    
 }
 
 .baunilha{
     height: 310px;
-
+    
 }
 
 /*fieldset{

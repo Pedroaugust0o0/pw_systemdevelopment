@@ -23,7 +23,7 @@
                     <input type="password" name="senha" id="senha"  onfocus="javascript: retirarFormatacao(this);" onblur="javascript: formatarCampo(this);"  maxlength="10" required placeholder="Senha">
                     <label for="nome" class="labelInput">Senha</label>
                     <br></br>
-                    <input type="text" id="cpf" maxlength="14" placeholder="xxx.xxx.xxx-xx" />
+                    <input type="number" name="cpf" maxlength="11"  placeholder="xxx.xxx.xxx-xx">
                     <label for="nome"   class="labelInput">CPF</label>
                     <br></br>
                     <input type="date" name="dtns" id="dtns" required>
