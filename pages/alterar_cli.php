@@ -24,7 +24,7 @@
                     <input type="password" name="senha" id="senha" maxlength="10"  placeholder="Senha" required>
                     <label for="nome" class="labelInput">Senha</label>
                     <br></br>
-                    <input type="text" id="cpf" maxlength="11" placeholder="xxx.xxx.xxx-xx" />
+                    <input type="text" id="cpf" maxlength="14" placeholder="xxx.xxx.xxx-xx" />
                     <label for="nome" class="labelInput">CPF</label>
                     <br></br>
                     <input type="date" name="dtns" id="dtns"  placeholder="Dtns"  required>

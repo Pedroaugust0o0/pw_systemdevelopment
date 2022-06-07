@@ -1,30 +1,20 @@
 <?php
-  
-  if(!empty($_GET['id']))
-    {
 
-      include_once('conexao.php');
+if (!empty($_GET['id'])) {
 
-      $id = $_GET['id'];
+  include_once('conexao.php');
 
-      $sqlSelect = "SELECT * FROM usuario WHERE id=$id";
-      
-      $result = $conexao->query($sqlSelect);
+  $id = $_GET['id'];
 
-      if($result->num_rows > 0)
-      {
-          $sqlDelete = "DELETE FROM usuario WHERE id=$id";
-          $resultDelete = $conexao->query($sqlSelect);
-     
-     
-     
-        }
-    }
-      header('Location: conexao.php')
+  $sqlSelect = 'delete from cliente WHERE id=' . $id;
 
+  // echo $sqlSelect;
 
-?>
+  $conexao->query($sqlSelect);
 
-
-
-    
+  // if ($result->num_rows > 0) {
+  //   $sqlDelete = "DELETE FROM usuário WHERE id=".$id;
+  //   // $resultDelete = $conexao->query($sqlSelect);
+  // }
+}
+header('location:tabelaCli.php');

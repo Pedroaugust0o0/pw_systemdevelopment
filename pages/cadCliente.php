@@ -14,26 +14,22 @@
                 <legend><b>Formulário de cadastro</b></legend>
                 <br>
                 <div class="inputBox">
-                    <input type="text" name="nome" id="nome" maxlength="240" class="campo_nome" required placeholder="Nome">
+                    <input type="text" name="nome" id="nome" onfocus="javascript: retirarFormatacao(this);" onblur="javascript: formatarCampo(this);" maxlength="240" class="campo_nome" required placeholder="Nome">
                     <label for="nome" class="labelInput">Nome completo</label>
                     <br></br>
-                    <input type="email" name="email" id="email" maxlength="50" required placeholder="Email">
+                    <input type="email" name="email" id="email" onfocus="javascript: retirarFormatacao(this);" onblur="javascript: formatarCampo(this);" maxlength="50" required placeholder="Email">
                     <label for="nome" class="labelInput">Email</label>
                     <br></br>
-                    <input type="password" name="senha" id="senha"  maxlength="10" required placeholder="Senha">
+                    <input type="password" name="senha" id="senha"  onfocus="javascript: retirarFormatacao(this);" onblur="javascript: formatarCampo(this);"  maxlength="10" required placeholder="Senha">
                     <label for="nome" class="labelInput">Senha</label>
                     <br></br>
-<<<<<<< HEAD
-                    <input type="text" id="cpf" maxlength="11" placeholder="xxx.xxx.xxx-xx" />
-=======
-                    <input type="number" name="cpf" maxlength="11"  placeholder="xxx.xxx.xxx-xx">
->>>>>>> f68c3ed6887995367fcf741b38d50e6a78012522
+                    <input type="text" id="cpf" maxlength="14" placeholder="xxx.xxx.xxx-xx" />
                     <label for="nome"   class="labelInput">CPF</label>
                     <br></br>
                     <input type="date" name="dtns" id="dtns" required>
                     <label for="nome" class="labelInput">Data de nascimento</label>
                     <br></br>
-                    <input type="checkbox" id="sexo" name="sexo" value="sexo">
+                    <input type="checkbox" id="sexo" onfocus="javascript: retirarFormatacao(this);" onblur="javascript: formatarCampo(this);" name="sexo" value="sexo">
                     <label for="nome" class="labelInput">Masculino</label>
                     <br></br>
                     <input type="checkbox" id="sexo" name="sexo" value="sexo">
