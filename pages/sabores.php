@@ -52,7 +52,7 @@
         <button value="compar">Comprar</button>
     </div>
     <div>
-        <img src="../img/franboesasorbet-removebg-preview.png" alt="Sorbet de franboesa" class="framboesa"> <h3>SORBET DE FRAMBOESA</h3>
+        <img src="../img/sorbetframboesa-removebg-preview.png" alt="Sorbet de franboesa" class="framboesa"> <h3>SORBET DE FRAMBOESA</h3>
         <button value="compar">Comprar</button>
     </div>
     <div>
