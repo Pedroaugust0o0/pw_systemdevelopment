@@ -108,6 +108,10 @@ button{
     border-radius: 9px;
 }
 
+button a{
+    text-decoration: none;
+}
+
 button:hover{
     background-color: rgb(255, 127, 127);
 }
