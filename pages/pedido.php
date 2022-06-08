@@ -7,5 +7,11 @@
 </head>
 <body>
     <h1>Pedido realizado com sucesso!!</h1>
+
+    <tr>
+        <th></th>
+        <th></th>
+        <th></th>
+    </tr>
 </body>
 </html>
