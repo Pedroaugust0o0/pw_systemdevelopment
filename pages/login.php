@@ -22,7 +22,7 @@
                     <br></br>
         <input type="submit" class="botao" onclick="Enviar();" value="Entrar" class="botao"/>
                     <br></br>
-        <input type="button" value="Voltar" onClick="history.go(-1)">
+        <input type="button" value="Voltar" onClick="history.go(-1)" class="voltar">
 </form>
     </form>
 </fieldset> 

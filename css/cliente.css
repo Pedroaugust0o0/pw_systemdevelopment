@@ -25,6 +25,14 @@ input{
   color: #fefefe;
 }
 
+.submit:hover{
+  background-color: #fd4cce;
+}
+
+.voltar:hover{
+  background-color: #e2e2e2;
+}
+
 #area{
   position:relative;
   left:37%;
