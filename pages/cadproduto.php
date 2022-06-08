@@ -16,31 +16,31 @@
             <div class="inputBox">
                 <p>
                     <label for="produto" class="labelInput">Produto</label>
-                    <input type="text" name="produto" id="produto" class="campo_nome" required>
+                    <input type="text" name="produto" id="produto" onfocus="javascript: retirarFormatacao(this);" onblur="javascript: formatarCampo(this);" class="campo_nome" required>
                 </p>
                 <p>
                     <label for="marca" class="labelInput">Marca</label>
-                    <input type="text" name="marca" id="marca" class="campo_nome" required>
+                    <input type="text" name="marca" id="marca" onfocus="javascript: retirarFormatacao(this);" onblur="javascript: formatarCampo(this);" class="campo_nome" required>
                 </p>
                 <p>
-                    <label for="peso" class="labelInput">Peso</label>
-                    <input type="number" name="peso" id="peso" class="campo_nome" required>
+                    <label for="nome" class="labelInput">Peso</label>
+                    <input type="text" name="peso" id="peso" onfocus="javascript: retirarFormatacao(this);" onblur="javascript: formatarCampo(this);" class="campo_nome" required>
                 </p>
                 <p>
-                    <label for="dtvalidade" class="labelInput">Data de validade</label>
-                    <input type="date" name="dtvalidade" id="dtvalidade" class="campo_nome" required>
+                    <label for="datavalidade" class="labelInput">Data de validade</label>
+                    <input type="date" name="datavalidade" id="datavalidade" onfocus="javascript: retirarFormatacao(this);" onblur="javascript: formatarCampo(this);" class="campo_nome" required>
                 </p>
                 <p>
                     <label for="fornecedor" class="labelInput">Fornecedor</label>
-                    <input type="text" name="fornecedor" id="fornecedor" class="campo_nome" required>
+                    <input type="text" name="fornecedor" id="fornecedor" onfocus="javascript: retirarFormatacao(this);" onblur="javascript: formatarCampo(this);" class="campo_nome" required>
                 </p>
                 <p>
-                    <label for="qdte" class="labelInput">Quantidade</label>
-                    <input type="number" name="qdte" id="qdte" class="campo_nome" required>
+                    <label for="qtdecomprada" class="labelInput">Quantidade</label>
+                    <input type="text" name="qtdecomprada" id="qtdecomprada" onfocus="javascript: retirarFormatacao(this);" onblur="javascript: formatarCampo(this);" class="campo_nome" required>
                 </p>
                 <p>
                     <label for="preco" class="labelInput">Preço</label>
-                    <input type="number" name="preco" id="preco" class="campo_nome" required>
+                    <input type="number" name="preco" id="preco" onfocus="javascript: retirarFormatacao(this);" onblur="javascript: formatarCampo(this);" class="campo_nome" required>
                 </p>
                 <p> <input type="submit" name="button" id="submit"></p>
 

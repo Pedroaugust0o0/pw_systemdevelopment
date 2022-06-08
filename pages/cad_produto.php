@@ -4,9 +4,9 @@ include "conexao.php";
 $produto = $_POST['produto'];
 $marcadoproduto = $_POST['marca'];
 $peso = $_POST['peso'];
-$datavalidade = $_POST['dtvalidade'];
+$datavalidade = $_POST['datavalidade'];
 $fornecedor = $_POST['fornecedor'];
-$qtdecomprada = $_POST['qdte'];
+$qtdecomprada = $_POST['qtdecomprada'];
 $preco = $_POST['preco'];
 
 $sql = "INSERT INTO produto(produto, marcadoproduto, peso, datavalidade, fornecedor, qtdecomprada, preco )
