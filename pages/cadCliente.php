@@ -24,7 +24,7 @@
                     <label for="nome" class="labelInput">Senha</label>
                     <br></br>
                     <input type="number" name="cpf" maxlength="11"  placeholder="xxx.xxx.xxx-xx">
-                    <label for="nome"   class="labelInput">CPF</label>
+                    <label for="cpf"   class="labelInput">CPF</label>
                     <br></br>
                     <input type="date" name="dtns" id="dtns" required>
                     <label for="nome" class="labelInput">Data de nascimento</label>

@@ -6,16 +6,15 @@ if (!empty($_GET['id'])) {
 
   $id = $_GET['id'];
 
-  $sqlSelect = 'delete from cliente WHERE id=' . $id;
+  $sqlSelect = 'delete from produto WHERE id=' . $id;
 
   // echo $sqlSelect;
 
   $conexao->query($sqlSelect);
 
   // if ($result->num_rows > 0) {
-  //   $sqlDelete = "DELETE FROM usuário WHERE id=".$id;
+  //   $sqlDelete = "DELETE FROM produto WHERE id=".$id;
   //   // $resultDelete = $conexao->query($sqlSelect);
   // }
 }
-header('location:tabelaCli.php');
-
+header('location:tabelaPro.php');
