@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../css/produto.css">
     <script src="../js/carrinho.js"></script>
+    <script src="../js/carrinho.js"></script>
     <title>Sabores</title>
 </head>
 <body>
