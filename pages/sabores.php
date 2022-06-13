@@ -39,7 +39,7 @@
     <div>
         <img src="../img/cheesecake-de-goiabada-removebg-preview.png" alt="cheesecake" class="cheesecake"><h3>CHEESECAKE DE GOIABADA</h3>
         <button value="compar" id="add" onclick="adicionar()">+</button>
-        <input type="text" id="qtd" value="0">
+        <input type="text" id="qtd" value="0-10">
         <button value="compar" id="rti">-</button>
     </div>
     <div>
@@ -91,7 +91,7 @@
     <div>
         <img src="../img/maracujasorbet-removebg-preview.png" alt="Sorbet de maracuja" class="maracuja"> <h3>SORBET DE MARACUJÁ</h3>
         <button value="compar" id="add" onclick="adicionar()">+</button>
-        <input type="text" id="qtd" value="0">
+        <input type="number" min="1" max="4" value="1" />
         <button value="compar" id="rti">-</button>
     </div>
     <div>
