@@ -17,5 +17,5 @@ if (!empty($_GET['id'])) {
   //   // $resultDelete = $conexao->query($sqlSelect);
   // }
 }
-header('location:tabelaCli.php');
+header('location:../pages/tabelaCli.php');
 

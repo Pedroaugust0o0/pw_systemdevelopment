@@ -17,16 +17,8 @@
                 <table class="table table-hover">
                     <thead>
                         <tr>
-                            <th scope="col">id</th>
-                            <th scope="col">produto</th>
-                            <th scope="col">marcadoproduto</th>
-                            <th scope="col">peso</th>
-                            <th scope="col">datavalidade</th>
-                            <th scope="col">fornecedor</th>
-                            <th scope="col">qtdecomprada</th>
-                            <th scope="col">preco</th>
-                            <th scope="col">Alterar</th>
-                            <th scope="col">Deletar</th>
+                            <th scope="col">Nome Completo</th>
+                            <th scope="col">senha</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -43,15 +35,10 @@
                         ?>  
                             <tr>
                                 <td><?php echo $valor['id']; ?></td>
-                                <td><?php echo $valor['produto']; ?></td>
-                                <td><?php echo $valor['marcadoproduto']; ?></td>
-                                <td><?php echo $valor['peso']; ?></td>
-                                <td><?php echo $valor['datavalidade']; ?></td>
-                                <td><?php echo $valor['fornecedor']; ?></td>
-                                <td><?php echo $valor['qtdecomprada']; ?></td>
-                                <td><?php echo $valor['preco']; ?></td>
+                                <td><?php echo $valor['Nome completo']; ?></td>
+                                <td><?php echo $valor['senha']; ?></td>
                                 <td><a href="alterar_pro.php?id=$valor['id']"><img src="../img/icone-alterar.png" style="width: 20px; height:20px;"></a></td>
-                                <a class='btn btn=sm btn=primay' href='tabelaUs.php?$valor[id]'></a>
+                                <a class='btn btn=sm btn=primay' href='tabelalog.php?$valor[id]'></a>
                                 <td>
                                     <a class='btn btn=sm btn=primay' href="./deletar_pro.php?id=<?php echo $valor['id']; ?>">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-trash3" viewBox="0 0 16 16">

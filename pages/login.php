@@ -11,7 +11,7 @@
     <div id="area">
 <fieldset>
 <legend>Faça seu login e aporveite ao máximo</legend>
-    <form action="login2.php" method="POST" class="formulario"> 
+    <form action="../controle/login2.php" method="POST" class="formulario"> 
         <label for="nome" class="labelInput">Nome completo</label>
                     <br></br>
         <input type="email" name="email" id="email"  maxlength="240" class="campo_email"required placeholder="Email">

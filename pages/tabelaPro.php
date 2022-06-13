@@ -31,7 +31,7 @@
                     </thead>
                     <tbody>
                         <?php
-                        include 'conexao.php';
+                        include '../controle/conexao.php';
 
                         $sql = "select * from Produto";
 
@@ -50,8 +50,8 @@
                                 <td><?php echo $valor['fornecedor']; ?></td>
                                 <td><?php echo $valor['qtdecomprada']; ?></td>
                                 <td><?php echo $valor['preco']; ?></td>
-                                <td><a href="alterar_pro.php?id=$valor['id']"><img src="../img/icone-alterar.png" style="width: 20px; height:20px;"></a></td>
-                                <a class='btn btn=sm btn=primay' href='tabelaUs.php?$valor[id]'></a>
+                                <td><a href="alterar_log.php?id=$valor['id']"><img src="../img/icone-alterar.png" style="width: 20px; height:20px;"></a></td>
+                                <a class='btn btn=sm btn=primay' href='tabelalog.php?$valor[id]'></a>
                                 <td>
                                     <a class='btn btn=sm btn=primay' href="./deletar_pro.php?id=<?php echo $valor['id']; ?>">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-trash3" viewBox="0 0 16 16">

@@ -9,7 +9,7 @@
 </head>
 
 <body>
-        <form method="post" action="cad_cliente.php">
+        <form method="post" action="../controle/cad_cliente.php">
             <fieldset>
                 <legend><b>Formulário de cadastro</b></legend>
                 <br>
@@ -23,7 +23,7 @@
                     <input type="password" name="senha" id="senha"  onfocus="javascript: retirarFormatacao(this);" onblur="javascript: formatarCampo(this);"  maxlength="10" required placeholder="Senha">
                     <label for="nome" class="labelInput">Senha</label>
                     <br></br>
-                    <input type="number" name="cpf" maxlength="11"  placeholder="xxx.xxx.xxx-xx">
+                    <input type="number" name="cpf" id="cpf" onfocus="javascript: retirarFormatacao(this);" onblur="javascript: formatarCampo(this);"  maxlength="11" required placeholder="xxx.xxx.xxx-xx">
                     <label for="cpf"   class="labelInput">CPF</label>
                     <br></br>
                     <input type="date" name="dtns" id="dtns" required>

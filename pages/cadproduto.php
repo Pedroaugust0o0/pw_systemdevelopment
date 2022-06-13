@@ -10,7 +10,7 @@
 
 <body>
     <h1>Cadastro de Produto</h1>
-    <form method="post" action="cad_produto.php">
+    <form method="post" action="../controle/cad_produto.php">
         <fieldset>
             <legend><b>Fórmulário de Produto</b></legend>
             <div class="inputBox">
