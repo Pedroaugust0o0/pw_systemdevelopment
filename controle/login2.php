@@ -4,22 +4,16 @@ include "conexao.php";
 $email = $_POST['email'];
 $senha = $_POST['senha'];
 
-$sql = "select * from usuário";
+$sql = "INSERT INTO cliente(nome, email, senha, cpf, dtns, sexo )
+        VALUES ('$nome' , '$email', '$senha' , '$cpf' , '$dtns' , '$sexo')";
 
-$pesquisa = mysqli_query($conexao, $sql);
-
-$login = false;
-
-foreach($pesquisa as $key => $valor)
-{
-    if($email == $valor['email'] && $senha == $valor['senha'])
-    $login = true;
+if (mysqli_query($conexao, $sql)) {
+    echo "Usuário cadastro com sucesso";
+} else {
+    echo  "Erro" . mysqli_connect_error($conexao);
 }
+
 
 mysqli_close($conexao);
-
-if ($login == true) {
-}else{
-    header('location:../controle/login.php');
-}
+header('Location: ../pages/sabores.php');
 ?>

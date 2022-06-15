@@ -1,32 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Faça seu login e aproveite ao máximo</title>
     <link rel="stylesheet" type="text/css" href="../css/login.css">
-    <title>login</title>
 </head>
-<body>
-    <div id="area">
-<fieldset>
-<legend>Faça seu login e aporveite ao máximo</legend>
-    <form action="../controle/login2.php" method="POST" class="formulario"> 
-        <label for="nome" class="labelInput">Nome completo</label>
-                    <br></br>
-        <input type="email" name="email" id="email"  maxlength="240" class="campo_email"required placeholder="Email">
-                    <br></br>
-        <label for="senha" class="labelInput">Senha</label>
-                    <br></br>
-        <input type="password" name="senha" id="senha" maxlength="8" class="campo_senha"required placeholder="Senha"> 
-                    <br></br>
-        <input type="submit" class="botao" onclick="Enviar();" value="Entrar" class="botao"/>
-                    <br></br>
-        <input type="button" value="Voltar" onClick="history.go(-1)" class="voltar">
-</form>
-    </form>
-</fieldset> 
-    </div>
 
+<body>
+        <form method="post" action="../controle/login2.php">
+            <fieldset>
+                <legend><b>Faça seu login e aproveite ao máximo</b></legend>
+                <br>
+                <div class="inputBox">
+                    <input type="email" name="email" id="email" onfocus="javascript: retirarFormatacao(this);" onblur="javascript: formatarCampo(this);" maxlength="50" required placeholder="Email">
+                    <label for="nome" class="labelInput">Email</label>
+                    <br></br>
+                    <input type="password" name="senha" id="senha"  onfocus="javascript: retirarFormatacao(this);" onblur="javascript: formatarCampo(this);"  maxlength="10" required placeholder="Senha">
+                    <label for="nome" class="labelInput">Senha</label>
+                    <br></br>
+                    <input type="submit" name="button" class="submit">
+                    <br></br>
+                    <a href="../index.php" type="button" class="voltar">voltar</a>
+                </div>
+            </fieldset>
+        </form>
+        </div>
 </body>
+
 </html>
