@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../css/produto.css">
-    <script src="../js/carrinho.js"></script>
-    <script src="../js/carrinho.js"></script>
     <title>Sabores</title>
 </head>
 <body>
@@ -18,8 +16,9 @@
     <div>
         <img src="../img/sorveteoreo-removebg-preview.png" alt="oreo" class="oreo"><h3>OREO</h3>
         <input type="text" id="qtd" value="0">
-    </div>
-    <div>
+        </form>
+     </div>
+<div>
         <img src="../img/chocolat-icecream-removebg-preview.png" alt="chocolate" class="chocolate"><h3>CHOCOLATE</h3>
         <input type="text" id="qtd" value="0">
     </div>
@@ -42,9 +41,7 @@
         <input type="text" id="qtd" value="0">
     </div>
 </div>
-</hr>
 <!-------Divisão----------------------------------------para---------------------------------não gerar confusão----------------------------->
-<hr>
 <h1 class="medio2">SABORES DE SORBET</h1>
 <div class="menu2">
     <div>
@@ -72,12 +69,10 @@
     </div>
     <div>
         <img src="../img/sorbetbaunilha-removebg-preview.png" alt="Sorbet de baunilha" class="baunilha"> <h3>SORBET DE BAUNILHA</h3>
-        <input type="text" id="qtd" value="0">
+        <input type="text" id="qtd" value="0" id="quantidade">
     </div>
 </div>
-
 <button type="enviar" value="enviar" id="enviar1"><a href="./pedido.php">Enviar pedido</a></button>
-
 <button type="button" value="Voltar" onClick="history.go(-1)" id="voltar">Voltar</button>
 </body>
 </html>

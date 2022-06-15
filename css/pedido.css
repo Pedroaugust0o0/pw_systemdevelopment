@@ -1,3 +1,11 @@
 body{
-    background: linear-gradient(to right, rgb(255, 132, 218), rgb(255, 232, 158))
+    background: 
+    linear-gradient(to right, rgb(255, 132, 220), rgb(195, 158, 255))
+}
+
+input{
+    background-color: #fefefe; 
+    font: 18px verdana, arial, helvetica, sans-serif;
+    color:#ff28f8;
+    border:2px solid #000000;
 }

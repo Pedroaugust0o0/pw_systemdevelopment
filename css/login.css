@@ -19,13 +19,22 @@ input {
   border:2px solid #000000;
 }
 
-.botao{
-  background-color: #ff87df;
+.submit{
+  background-color: #ff28f8;
   font-family: 'Lobster Two', cursive;
   color: #CCFFFF;
 }
 
-.botao:hover{
+.voltar{
+  background-color: #ff87df;
+  font-family: 'Lobster Two', cursive;
+  color: #fefefe;
+  text-decoration: none;
+  height: 20%;
+
+}
+
+.submit:hover{
   background-color: #fd4cce;
 }
 
@@ -48,6 +57,7 @@ fieldset{
   height: 330px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.623);
   border-radius: 15px;
+  align-items: center;
 }
 
 label{
